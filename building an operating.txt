@@ -1,0 +1,99 @@
+building an operating system
+phase 1
+	learn -what happens when a computer turns on
+	-BIOS/UEFI
+	-boot process, for building 
+	-a simple bootloader and OS kernal loads
+phase 2
+	learn -memory layout
+	- stack vs heap
+	- bare metal programming, to build
+	- kernal entry point
+	-infinite loop
+	-basic logging
+phase 3
+	learn - ram mapping
+	- page tables
+	- allocation for building
+	-physical memory manager
+	- paging
+phase 4
+	build - keyboard input driver
+	-screen output(text based)
+phase 5
+	build - read/write files
+	-directory structure
+phase 6
+	build - process structure
+	- context switching
+	- simple scheduler
+phase 7
+	- syscall interface
+	- user mode vs kernel-mode separation
+	- run simple user programs
+phase 8
+	build -shell or UI
+phase 9 (optional)
+	- network stack
+	- usb support
+	- sound drivers
+	- package drivers
+	- security model
+	
+1. Bootloader
+2. Minimal Kernel
+3. Interrupt Handling
+4. Memory Management
+5. Process Management
+6. Scheduler
+7. Device Drivers
+8. I/O System
+9. File System
+10. System Calls
+11. Security Layer
+12. Networking
+13. System Libraries
+14. Shell/GUI
+15. Applications	
+	
+	 If generating an operating system from scratch
+• Write the operating system source code
+• Configure the operating system for the system on which it will
+run
+• Compile the operating system
+• Install the operating system
+• Boot the computer and its new operating system
+
+system specification
+	cpu architecture
+	firmware
+	interrupts and timers
+	peripherals
+
+
+sudo apt update
+
+sudo apt install
+
+GCC → compile kernel
+NASM → assembler for the x86 assembly language
+QEMU → emulator
+GDB → low level debugging
+build-essential → a meta-package which installs the core GNU build toolchain
+
+make \ automates compilation pipelines
+
+FOLDER STRUCTURE
+	osdev/
+		├── boot/
+		├── kernel/
+		├── iso/
+		├── Makefile
+		├── linker.ld
+		
+		
+
+
+
+
+
