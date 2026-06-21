@@ -18,6 +18,8 @@ call read_string
 ; ------------------------------------
 
 cli
+xor ax, ax
+mov ds, ax
 lgdt [gdt_descriptor]
 
 mov eax, cr0
